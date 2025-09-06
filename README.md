@@ -31,4 +31,14 @@ Finds `.log` and `.feed` files older than 6 months in one or more directories.
 ```bash
 bash find_old_files.sh /dir1 /dir2 ... /dirN
 ```
-Check the output files for details.
+
+---
+
+### file_comparison.sh
+Compares two files of any format and displays only the differing lines with their line numbers.
+
+**Usage:**
+```bash
+bash file_comparison.sh <file1> <file2>
+```
+Displays differences between the files, showing the line number and content from each file where they differ.
