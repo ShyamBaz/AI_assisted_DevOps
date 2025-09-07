@@ -85,4 +85,17 @@ Compares two files of any format and displays only the differing lines with thei
 ```bash
 python file_comparison.py file1.txt file2.txt
 ```
-Displays differences between the files, showing the line number and content from each file where they differ.
+
+---
+
+### calculator.py
+Performs basic arithmetic operations (add, subtract, multiply, divide) on any number of inputs provided via command line arguments.
+
+**Usage:**
+```bash
+python calculator.py add 1 2 3 4
+python calculator.py subtract 10 2 3
+python calculator.py multiply 2 3 4
+python calculator.py divide 20 2 2
+```
+Choose the operation and pass as many numbers as needed.
