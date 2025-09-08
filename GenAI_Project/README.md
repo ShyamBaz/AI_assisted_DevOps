@@ -1,17 +1,20 @@
+
 # GenAI_Project
 
-This folder is intended for Generative AI related scripts, models, and resources as part of the AI_assisted_DevOps repository.
+This folder contains Generative AI related scripts, models, and resources as part of the AI_assisted_DevOps repository.
 
 ## Structure
-- Add your GenAI scripts, notebooks, and documentation here.
-- Organize subfolders as needed for datasets, models, experiments, etc.
+- **local-llms-ollama-setup/**: Instructions and resources for setting up local Large Language Models (LLMs) using Ollama. See the folder README for details and setup steps.
+- **Dockerfile_Generator/**: GenAI-powered tool for generating optimized Dockerfiles based on programming language input, using Ollama and the Llama3 model. See the folder README for usage and troubleshooting.
+- Add other GenAI scripts, notebooks, and documentation here as needed.
 
 ## Getting Started
-- Place your GenAI code and resources in this folder.
-- Update this README with specific instructions and details as your project evolves.
+- Explore the subfolders for specific GenAI solutions and tools.
+- Follow instructions in each folder's README for setup and usage.
 
 ## Example Usage
-- Add example commands, script usage, or links to documentation here as you develop GenAI solutions.
+- See `Dockerfile_Generator/generate_dockerfile.py` for generating Dockerfiles using GenAI.
+- See `local-llms-ollama-setup/README.md` for running and configuring local LLMs with Ollama.
 
 ---
 
