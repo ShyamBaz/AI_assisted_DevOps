@@ -11,7 +11,7 @@ Download and install the .exe file from above link
 Once successfully installed Ollama application. You can able to view the Ollama prompt window
 
 2. Open Git Bash terminal and pull the Ollama model
-ollama pull llama3.2:1b
+ollama pull llama3.2
 
 Project Setup:
 We need python to setup project environment. If you don't have python in your machine. Please install it and follow next steps.
